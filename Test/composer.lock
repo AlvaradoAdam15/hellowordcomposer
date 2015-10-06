@@ -1,0 +1,104 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "cb2e0aa137bf2ffb98974cba4754dbfa",
+    "content-hash": "6ca8532524c2bbe5696cfeda9cbfd714",
+    "packages": [
+        {
+            "name": "adamalvarado/hello-word-composer",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlvaradoAdam15/hellowordcomposer.git",
+                "reference": "6e11fd851799c0022f836f102e180b26c6e27d54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlvaradoAdam15/hellowordcomposer/zipball/6e11fd851799c0022f836f102e180b26c6e27d54",
+                "reference": "6e11fd851799c0022f836f102e180b26c6e27d54",
+                "shasum": ""
+            },
+            "require": {
+                "fzaninotto/faker": "^1.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Com\\Iesebre\\Dam2\\adamalvarado\\hellowordcomposer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "adam Alvarado",
+                    "email": "adamalvarado@iesebre.com"
+                }
+            ],
+            "description": "Bla bla bla",
+            "time": "2015-10-06 18:34:19"
+        },
+        {
+            "name": "fzaninotto/faker",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "d0190b156bcca848d401fb80f31f504f37141c8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d0190b156bcca848d401fb80f31f504f37141c8d",
+                "reference": "d0190b156bcca848d401fb80f31f504f37141c8d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "suggest": {
+                "ext-intl": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2015-05-29 06:29:14"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

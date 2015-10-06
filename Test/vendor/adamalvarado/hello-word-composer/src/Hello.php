@@ -16,6 +16,5 @@ class Hello
     public function say_hello()
     {
         echo "Hola " . $this->faker->name . "!\n";
-        echo "El meu nom és Adam!\n";
     }
 }

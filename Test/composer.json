@@ -1,0 +1,5 @@
+{
+    "require": {
+        "adamalvarado/hello-word-composer": "^0.1.0"
+    }
+}
