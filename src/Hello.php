@@ -1,6 +1,8 @@
 <?php
 
-require_once __DIR__ . "/vendor/autoload.php";
+namespace Com\Iesebre\Dam2\adamalvarado\hellowordcomposer;
+
+use Faker\Factory;
 
 class Hello
 {
@@ -8,7 +10,7 @@ class Hello
 
     public function __construct()
     {
-        $this->faker = Faker\Factory::create();
+        $this->faker = Factory::create();
     }
 
     public function say_hello()
