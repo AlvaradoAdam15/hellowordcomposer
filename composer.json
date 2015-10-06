@@ -1,0 +1,11 @@
+{
+    "name": "adamalvarado/hello-word-composer",
+    "description": "Bla bla bla",
+    "authors": [
+        {
+            "name": "adam Alvarado",
+            "email": "adamalvarado@iesebre.com"
+        }
+    ],
+    "require": {}
+}
