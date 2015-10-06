@@ -7,5 +7,7 @@
             "email": "adamalvarado@iesebre.com"
         }
     ],
-    "require": {}
+    "require": {
+        "fzaninotto/faker": "^1.5"
+    }
 }
